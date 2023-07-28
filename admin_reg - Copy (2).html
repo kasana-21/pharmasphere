@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Registration Form</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <div class="form-box">
+        <h1>Admin Sign Up</h1>
+        <form action="admin_reg.php" method="post">
+            <label for="SSN">SSN:</label><br>
+            <input type="text" id="SSN" name="SSN" required><br><br>
+
+            <label for="adm_fname">First Name:</label><br>
+            <input type="text" id="adm_fname" name="adm_fname" required><br><br>
+
+            <label for="adm_lname">Last Name:</label><br>
+            <input type="text" id="adm_lname" name="adm_lname" required><br><br>
+
+            <label for="adm_email">Email Address:</label><br>
+            <input type="email" id="adm_email" name="adm_email" required><br><br>
+
+            <label for="adm_phone">Phone Number:</label><br>
+            <input type="tel" id="adm_phone" name="adm_phone" required><br><br>
+
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" required><br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <div class="terms">
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox"> I agree to these <a href='#'> Terms & Conditions</a></label>
+            </div>
+            <input type="submit" id="adm_reg" class="btn">
+            <input type="reset" id="clear" class="btn">
+            <div class="user">
+                Already a member? <a href="login.html">
+                    Login Here
+                </a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
